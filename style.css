@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: #f63232;
+    font-size: 16px;
+}
+main{
+    width: 98%;
+    margin-left: 1%;
+    height: 111vh; 
+    background-color: black;
+    border-radius: 20px;
+}
+nav{
+     height:40px;
+     position: relative;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    width: 150px;
+    margin-left: 65px;
+}
+
+input{
+    position: absolute;
+    top: 55px;
+    left: 20rem;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border: 0px;
+    position: relative;
+}
+.fa-magnifying-glass{
+    color: #f63232;
+    position: absolute;
+    top: 63px;
+    left: 37rem;
+    opacity: .8;
+
+
+
+}
+input::placeholder{
+    padding-left: 20px;
+} 
+
+.fa-video{
+    position: absolute;
+    right: 15rem;
+    width: 80px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    opacity: .9;
+    padding-right: 25px;
+} 
+.nav-list{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    
+}
+li{
+list-style-type:none ;
+margin-right: 40px;
+margin-top: 10px;
+}
+.fa-user{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.fa-arrow-up-from-bracket{
+    position: absolute;
+    right: 5rem;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.btn{
+    position: absolute;
+    right: 9rem;
+    background-color: #f63232;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+}
+.img-container{
+    width: 96%;
+    /* margin-top: 30px; */
+    margin-left: 50px;
+
+}
+.img-list{ 
+    margin: 25px;
+    width: 250px;
+    height: 300px;
+
+}
+.hero-image{
+     margin-top: 30px; 
+     width:77vw; 
+     height: 40vh;
+    
+}
+.sect{
+    position: relative;
+    
+}
+.right-sect{
+    position: absolute;
+    top: 3rem;
+    left: 21rem;
+    width: 80%;
+}
+.left-sect{
+    position: absolute;
+    top: 5rem;
+    border-right: 1px solid white;
+    height: 88vh;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 20px;
+    width: 20%;
+}
+
+footer{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+p{
+    text-align: center;
+    color: white;
+    padding-top: 18px;
+}
+
+
+.home-btn{
+    background-color: #f63232;
+    border-radius: 20px;
+    margin-left: 65px;
+    padding: 10px 20px;
+}
+.home{
+    width:100px ;
+    margin-top: 30px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    
+}
+.fa-house{
+    color: white;
+    
+}
+.trending{
+    position: relative;
+    margin-left: 66px;
+    padding: 4px 20px; 
+     margin-top: 7px; 
+
+}
+.fa-newspaper{
+    position: relative;
+    margin-top: 18px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.para1{
+   position: absolute;
+   top: 4px;
+   left: 50px;
+
+}
+
+.subcriptions{
+    position: relative;
+    margin-left: 66px;
+    padding: 10px 20px;
+
+}
+.fa-play{
+    position: relative;
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.para2{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+hr{
+    opacity: .4;
+
+}
+
+.copyright{
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: .8;
+}
+.fa-bag-shopping{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-clock{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-music{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-volleyball{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-dice{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.fa-radio{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.fa-cloud{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.fa-gear{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.youtube-copy{
+    color: #f63232;
+}
+footer p{
+    font-size: 12px;
+    opacity: .8;
+    letter-spacing: 1px;
+}
+.scroll{
+    background-color: #f63232;
+    width: 5px;
+    height: 150px;
+    position: absolute;
+     top: 40%;
+     border-radius: 20px;
+     left: 20.4rem;
+}
